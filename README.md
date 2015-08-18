@@ -10,12 +10,13 @@ in the ceiling. The arduino is more robust, but controls the fan
 through a relay, something that is not legal here and will void our 
 home insurance. The Raspberry Pi version uses a WeMo switch to make it legal.
 
-LIBRARIES 
-#include <PCD8544.h>
+#LIBRARIES 
+include <PCD8544.h>
 //libraries for temperature sensors 
-#include <OneWire.h>
-#include <DallasTemperature.h>
+include <OneWire.h>
+include <DallasTemperature.h>
 
+#Hardware
 Arduino pins used:
 LCD SPI interface
   SCLK = 3
