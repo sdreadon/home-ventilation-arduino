@@ -10,7 +10,7 @@ in the ceiling. The arduino is more robust, but controls the fan
 through a relay, something that is not legal here and will void our 
 home insurance. The Raspberry Pi version uses a WeMo switch to make it legal.
 
-#LIBRARIES 
+#Libraries
 include <PCD8544.h>
 //libraries for temperature sensors 
 include <OneWire.h>
